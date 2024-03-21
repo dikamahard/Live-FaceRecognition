@@ -1,6 +1,6 @@
 # Live Face Recognition
 
-Simple implementation of live face recognition implementing LBPH algorithm for recognizing faces and HaarCascade pretrained model to detect faces.
+Simple implementation of live face recognition using OpenCV Python implementing LBPH algorithm for recognizing faces and HaarCascade pretrained model to detect faces.
 
 ## Installation
 
