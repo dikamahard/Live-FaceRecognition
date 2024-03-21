@@ -12,8 +12,13 @@ if not video.isOpened():
 name = input('Register Name : ')
 
 
-# count dir inside path, check if exist, make new with number
+
+# check if data directory exist
 dataPath = os.path.join(os.path.dirname(__file__), "data")
+if not os.path.exists(dataPath):
+    os.mkdir(dataPath)
+
+# count directory inside path, check if exist, make new with number
 persons = os.listdir(dataPath)
 # check if person exists
 personNames = [person.split('.')[-1] for person in persons]
