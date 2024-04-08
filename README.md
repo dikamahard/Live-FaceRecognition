@@ -1,5 +1,5 @@
 # Live Face Recognition
-<img src="https://views.whatilearened.today/views/github/dikamahard/FaceCompareLibrary.svg" width="80px" height="20px" alt="View" />   
+<img src="https://views.whatilearened.today/views/github/dikamahard/Live-FaceRecognition.svg" width="80px" height="20px" alt="View" />   
 
 Simple implementation of live face recognition using OpenCV Python implementing LBPH algorithm for recognizing faces and HaarCascade pretrained model to detect faces.
 
